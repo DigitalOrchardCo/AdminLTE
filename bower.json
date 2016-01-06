@@ -6,11 +6,14 @@
   ],
   "description": "Admin dashboard and control panel template",
   "main": [
-    "index2.html",
+    "starter.html",
     "dist/css/AdminLTE.css",
-    "dist/js/app.js",
-    "build/less/AdminLTE.less"
+    "dist/js/app.js"
   ],
+  "dependencies": {
+    "jquery": "1.9.1 - 2",
+    "bootstrap": "https://github.com/twbs/bootstrap.git#v4.0.0-alpha"
+  },
   "keywords": [
     "css",
     "js",
